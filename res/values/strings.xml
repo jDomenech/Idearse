@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="URL">http://188.165.131.21/intranet_beta2/</string>
+    <string name="app_name">Idearse</string>
+    <string name="imageViewDesc">desc_ImageView</string>
+    
+    <string name="logout">Logout</string>
+    <string name="login">ENTRAR</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="qr1">Validar trabajadores</string>
+    <string name="qr2">Validar máquinas</string>
+    <string name="qr_hand">Código manualmente</string>
+    <string name="sitio">Código de la empresa</string>
+    <string name="qr_code">Código QR</string>
+    <string name="send">Enviar</string>
+    <string name="detectar_de_nuevo">Detectar otro QR</string>
+    <string name="codigo">Código:</string>
+    <string name="autorizado">Autorizado</string>
+    <string name="semiautorizado">Semi-autorizado</string>
+    <string name="noautorizado">No autorizado</string>
+    <string name="llamada">Llamar</string>
+    <string name="no_autorizado">No autorizado</string>
+    <string name="validate">Aceptar</string>
+    <string name="borrar">Borrar código</string>
+    <string name="support">Soporte</string>
+    <string name="inici">Ir al inicio</string>
+    <string name="recordar">Recordar datos</string>
+    <string name="error">Introducir el código de la empresa en la configuración</string>
+    <string name="treballadors_ma">Validar trabajador manualmente</string>
+    <string name="maquines_ma">Validar máquina manualmente</string>
+    <string name="tipo">Tipo:</string>
+    <string name="modelo">Modelo:</string>
+    <string name="tlf">Introducir teléfono</string>
+    
+</resources>

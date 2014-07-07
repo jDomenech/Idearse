@@ -1,0 +1,70 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/app_bg">
+
+	<RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:paddingBottom="20dp"
+	    android:background="@null"
+	   	android:descendantFocusability="beforeDescendants"
+		android:focusableInTouchMode="true">
+		
+	    <RelativeLayout 
+		    android:layout_width="400dp"
+		    android:layout_height="wrap_content"
+		    android:layout_centerHorizontal="true"
+		    android:layout_centerVertical="true"
+		    android:background="@null"
+		    android:layout_margin="20dp">
+		    
+	        <Button 
+	            android:id="@+id/qr1" 
+				android:layout_alignParentTop="true"
+	            android:layout_marginTop="10dp"
+		        android:layout_width="180dp"
+		        android:layout_height="180dp"
+		        android:text="@string/qr1"
+		        android:background="@drawable/btn_blue_effect"
+				android:layout_centerHorizontal="true"
+				android:textColor="#ffffff"
+				android:padding="5dp"
+				android:textSize="25sp"/>
+	        
+	        <Button 
+	            android:id="@+id/qr2" 
+				android:layout_below="@+id/qr1"
+	            android:layout_marginTop="10dp"
+		        android:layout_width="180dp"
+		        android:layout_height="180dp"
+		        android:text="@string/qr2"
+		        android:background="@drawable/btn_red_effect"
+				android:layout_centerHorizontal="true"
+				android:textColor="#ffffff"
+				android:padding="5dp"
+				android:textSize="25sp"/>
+	        
+	        <EditText
+			    android:id="@+id/qr_hand"
+			    android:layout_below="@+id/qr2"
+			    android:layout_height="50dp"
+			    android:layout_width="180dp"
+			    android:singleLine="true"
+			    android:gravity="center"
+		   		android:lines="1"
+		   		android:inputType="textVisiblePassword|textNoSuggestions"
+		   		android:scrollHorizontally="true"
+		   		android:layout_marginTop="10dp"
+			    android:paddingLeft="10dp"
+		    	android:paddingRight="10dp"
+		    	android:hint="@string/qr_hand"
+			    android:background="@drawable/edittexts"
+			    android:layout_centerHorizontal="true"
+			    android:textColor="#000000"
+			    android:textSize="15sp"/>
+	    </RelativeLayout>
+	</RelativeLayout>
+	        
+</ScrollView>

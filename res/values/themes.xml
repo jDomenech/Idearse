@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">			
+	<!-- the theme applied to the application or activity -->
+	<style name="CustomActionBarTheme"
+	       parent="android:Theme.Holo.Light.DarkActionBar">
+	    <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:actionBarTabTextStyle">@style/MyActionBarTabText</item>
+        <item name="android:actionMenuTextColor">#ffffff</item>
+        <item name="android:actionBarSize">55dp</item>
+	</style>
+	
+	<style name="CustomActionBarThemeLogin"
+	       parent="android:Theme.Holo.Light.DarkActionBar">
+	    <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:actionBarTabTextStyle">@style/MyActionBarTabText</item>
+        <item name="android:actionMenuTextColor">#ffffff</item>
+        <item name="android:actionBarSize">55dp</item>
+        <item name="android:homeAsUpIndicator">@drawable/transparent</item> 
+	</style>
+	
+	<style name="Theme.Transparent" parent="android:Theme">
+	    <item name="android:windowIsTranslucent">true</item>
+	    <item name="android:windowBackground">@android:color/transparent</item>
+	    <item name="android:windowContentOverlay">@null</item>
+	    <item name="android:windowNoTitle">true</item>
+	    <item name="android:windowIsFloating">false</item>
+	    <item name="android:backgroundDimEnabled">false</item>
+    </style>
+	
+	<!-- ActionBar styles -->
+	<style name="MyActionBar"
+	       parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+	    <item name="android:background">@drawable/action_bar_bg</item>
+	    <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+	</style>
+
+    <!-- ActionBar title text -->
+    <style name="MyActionBarTitleText"
+           parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- ActionBar tabs text styles -->
+    <style name="MyActionBarTabText"
+           parent="android:Widget.Holo.ActionBar.TabText">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+</resources>

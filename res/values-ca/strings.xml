@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="URL">http://188.165.131.21/intranet_beta2/</string>
+    <string name="app_name">Idearse</string>
+    <string name="imageViewDesc">desc_ImageView</string>
+    
+    <string name="logout">Logout</string>
+    <string name="login">ENTRAR</string>
+    <string name="username">Usuari</string>
+    <string name="password">Contrasenya</string>
+    <string name="qr1">Validar treballadors</string>
+    <string name="qr2">Validar màquines</string>
+    <string name="qr_hand">Codi manualment</string>
+    <string name="sitio">Codi de l\'empresa</string>
+    <string name="qr_code">Codi QR</string>
+    <string name="send">Enviar</string>
+    <string name="detectar_de_nuevo">Detectar un altre QR</string>
+    <string name="codigo">Codi:</string>
+    <string name="autorizado">Autoritzat</string>
+    <string name="semiautorizado">Semi-autoritzat</string>
+    <string name="noautorizado">No autoritzat</string>
+    <string name="llamada">Trucar</string>
+    <string name="no_autorizado">No autoritzat</string>
+    <string name="validate">Acceptar</string>
+    <string name="borrar">Borrar codi</string>
+    <string name="support">Suport</string>
+    <string name="inici">Anar a l\'inici</string>
+    <string name="recordar">Recordar dades</string>
+    <string name="error">Introduir codi de l\'empresa a la configuració</string>
+    <string name="treballadors_ma">Validar treballador manualment</string>
+    <string name="maquines_ma">Validar màquina manualment</string>
+    <string name="tipo">Tipus:</string>
+    <string name="modelo">Model:</string>
+    <string name="tlf">Introduïr telèfon</string>
+    
+</resources>
