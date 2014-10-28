@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="URL">http://188.165.131.21/intranet_beta2/</string>
+    <string name="URL">http://intranet.idearse.coop/</string>
     <string name="app_name">Idearse</string>
     <string name="imageViewDesc">desc_ImageView</string>
     
